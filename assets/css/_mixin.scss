@@ -1,0 +1,98 @@
+@mixin scroll__arrow($dg) {
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    transform: rotate($dg);
+    z-index: 50;
+}
+
+@mixin images() {
+    $rows-class: 'header' 'why-choose-us__wrapper' 'Testimonial';
+    $path-class: 'header.jpg' 'choose_us.jpg' 'feedback_bg.png';
+    @each $rowsclass in $rows-class {
+        $i: index($rows-class, $rowsclass);
+        $path: nth($path-class, $i);
+        .#{$rowsclass} {
+            background: url('../img/'+$path) center / cover no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+@mixin h_p_attributes($font-family,
+$weight,
+$size,
+$spacing,
+$transform) {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-size: $size;
+    letter-spacing: $spacing;
+    text-transform: $transform;
+}
+
+@mixin spain__flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-attachment: fixed;
+}
+
+@mixin content__spain {
+    width: 35%;
+    background-color: rgba(51, 51, 51, 0.7);
+    margin: 230px 0 100px 0;
+    padding: 50px 30px;
+    color: #fff;
+    h3 {
+        @include h_p_attributes('Josefin Sans'+"," sans-serif,
+        unset,
+        20px,
+        unset,
+        unset);
+    }
+    h1 {
+        padding: 30px 0;
+        @include h_p_attributes('Josefin Sans'+"," sans-serif,
+        unset,
+        20px,
+        unset,
+        uppercase);
+    }
+    p {
+        line-height: 1.4;
+        @include h_p_attributes('Josefin Sans'+"," sans-serif,
+        unset,
+        16px,
+        1px,
+        unset);
+        text-align: justify;
+    }
+    button {
+        margin: 30px 0;
+    }
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    75% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    75% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

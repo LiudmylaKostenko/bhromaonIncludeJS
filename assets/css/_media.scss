@@ -1,0 +1,395 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .main__wrapper {
+        .header {
+            .content__wrapper {
+                h1 {
+                    font-size: 37px;
+                    padding-bottom: 21px;
+                }
+                h5 {
+                    font-size: 15px;
+                }
+                .search__form__wrapper {
+                    form {
+                        input[type=text][placeholder*=travel] {
+                            font-size: 12px;
+                            letter-spacing: 0;
+                        }
+                        .input__search {
+                            width: 181px;
+                            height: 45px;
+                        }
+                        .searchBtn {
+                            font-size: 7px;
+                            height: 45px;
+                            width: 79px;
+                            line-height: 43px;
+                        }
+                    }
+                }
+            }
+            .scroll__wrapper {
+                top: 606px;
+            }
+            .menu__wrapper {
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0;
+                .menu__inner {
+                    right: 0;
+                    position: unset;
+                    display: block;
+                    font-size: 11px;
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    p {
+                        padding-left: 0;
+                        letter-spacing: 10px;
+                        line-height: 35px;
+                    }
+                    ul {
+                        li {
+                            margin-left: 0;
+                            line-height: 20px;
+                            border: 1px solid #f9f6ff;
+                            background: #4d7abf;
+                            margin-left: 0;
+                            line-height: 24px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .why-choose-us__wrapper {
+            height: 1100px;
+            text-align: -webkit-center;
+            .why-choose-us__inner {
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0;
+                .content__why-choose-us {
+                    left: 4px;
+                    margin: 0;
+                    padding: 0;
+                    order: 2;
+                    h2 {
+                        text-align: center;
+                        padding-top: 35px;
+                    }
+                    p {
+                        width: 294px;
+                    }
+                    p+p {
+                        padding: 20px 0 30px;
+                    }
+                    .linear {
+                        margin: 0 auto;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                    }
+                }
+                .image__wrapper {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .image__first__inner {
+                        img[alt=choose_lake] {
+                            width: 88%;
+                            margin: 0 auto;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            top: 0;
+                            position: absolute;
+                        }
+                        float: none;
+                    }
+                    .image__second__inner {
+                        float: none;
+                        img[alt=choose_mountain] {
+                            width: 88%;
+                            margin: 0 auto;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            top: 250px;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+        }
+        .how-it-works {
+            height: 228px;
+            .how-it-works__wrapper {
+                padding: 39px 0 0;
+                .dotted {
+                    display: none;
+                }
+                .icons__wrapper {
+                    .icons {
+                        top: 0;
+                        left: 0;
+                        position: relative;
+                        width: 90px;
+                    }
+                }
+                .description__icons {
+                    margin: 0;
+                    span {
+                        font-size: 13px;
+                        line-height: 26px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        .spain {
+            .houses__wrapper,
+            .ocean__wrapper {
+                .spain__inner {
+                    width: 100%;
+                    margin: auto;
+                    padding: 20px;
+                    text-align: center;
+                    p {
+                        text-align: center!important;
+                    }
+                }
+            }
+        }
+        .Testimonial {
+            .Testimonial__wrapper {
+                padding: 0;
+                h1 {
+                    padding: 20px 0;
+                    font-size: 20px;
+                }
+                .content__inner {
+                    img {
+                        width: 100%;
+                    }
+                    .content__quote {
+                        width: 100%;
+                        h3 {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:421px) and (max-width: 767px) {
+    .main__wrapper {
+        .header {
+            .content__wrapper {
+                .search__form__wrapper {
+                    form {
+                        input[type=text][placeholder*=travel] {
+                            font-size: 14px!important;
+                            letter-spacing: 2px!important;
+                        }
+                        .input__search {
+                            width: 300px!important;
+                            height: 55px!important;
+                        }
+                        .searchBtn {
+                            font-size: 7px;
+                            height: 55px!important;
+                            line-height: 53px!important;
+                            font-size: 10px!important;
+                            letter-spacing: 1px!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:510px) and (max-width: 767px) {
+    .main__wrapper {
+        .how-it-works {
+            .how-it-works__wrapper {
+                .icons__wrapper {
+                    .icons {
+                        bottom: 0!important;
+                        margin: 0 50px!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main__wrapper {
+        .header {
+            .menu__wrapper {
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0;
+                .menu__inner {
+                    right: 0;
+                    position: unset;
+                    display: block;
+                    font-size: 11px;
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    p {
+                        display: none;
+                    }
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+                        li {
+                            a {
+                                color: rgb(255, 255, 255);
+                                font-weight: bold;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .why-choose-us__wrapper {
+            height: 520px;
+            .why-choose-us__inner {
+                display: flex;
+                flex-direction: row-reverse;
+                width: 700px;
+                bottom: 0;
+                .content__why-choose-us {
+                    h2 {
+                        text-align: center;
+                        margin-top: -62px;
+                    }
+                    p {
+                        width: 418px;
+                        text-align: justify;
+                    }
+                    .linear {
+                        margin: 0 auto;
+                        position: absolute;
+                        left: 60px;
+                        right: 0;
+                    }
+                }
+                .image__wrapper {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .image__first__inner {
+                        img[alt=choose_lake] {
+                            width: 36%;
+                            margin: 0 auto;
+                            left: 0;
+                            bottom: 0;
+                            top: 0;
+                            position: absolute;
+                        }
+                        float: none;
+                    }
+                    .image__second__inner {
+                        float: none;
+                        img[alt=choose_mountain] {
+                            width: 36%;
+                            height: auto;
+                            margin: 0 auto;
+                            right: 0;
+                            bottom: 0;
+                            float: none;
+                            position: absolute;
+                            top: 167px;
+                            left: -287px;
+                        }
+                    }
+                }
+            }
+        }
+        .how-it-works {
+            .how-it-works__wrapper {
+                .icons__wrapper {
+                    .thumb__icon {
+                        left: 614px;
+                    }
+                    .search__icon {
+                        left: -8px;
+                    }
+                }
+                .description__icons {
+                    margin: 0px -30px;
+                }
+            }
+        }
+        .spain {
+            .houses__wrapper,
+            .ocean__wrapper {
+                .spain__inner {
+                    width: 50%;
+                }
+            }
+        }
+        .Testimonial {
+            .Testimonial__wrapper {
+                padding-bottom: 70px;
+                h1 {
+                    padding: 50px 0;
+                }
+                .content__inner {
+                    .content__quote {
+                        width: 60%;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .main__wrappper {
+        .header {
+            .menu__wrapper {
+                .menu__inner {
+                    ul {
+                        li {
+                            a {
+                                color: rgb(255, 255, 255);
+                                font-weight: bold;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .spain {
+            .houses__wrapper,
+            .ocean__wrapper {
+                .spain__inner {
+                    width: 50%;
+                }
+            }
+        }
+        .Testimonial {
+            .Testimonial__wrapper {
+                padding-bottom: 70px;
+                h1 {
+                    padding: 50px 0;
+                }
+                .content__inner {
+                    .content__quote {
+                        width: 60%;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

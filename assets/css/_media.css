@@ -1,0 +1,333 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .main__wrapper .header .content__wrapper h1 {
+        font-size: 37px;
+        padding-bottom: 21px;
+    }
+    .main__wrapper .header .content__wrapper h5 {
+        font-size: 15px;
+    }
+    .main__wrapper .header .content__wrapper .search__form__wrapper form input[type=text][placeholder*=travel] {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .main__wrapper .header .content__wrapper .search__form__wrapper form .input__search {
+        width: 181px;
+        height: 45px;
+    }
+    .main__wrapper .header .content__wrapper .search__form__wrapper form .searchBtn {
+        font-size: 7px;
+        height: 45px;
+        width: 79px;
+        line-height: 43px;
+    }
+    .main__wrapper .header .scroll__wrapper {
+        top: 606px;
+    }
+    .main__wrapper .header .menu__wrapper {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    .main__wrapper .header .menu__wrapper .menu__inner {
+        right: 0;
+        position: unset;
+        display: block;
+        font-size: 11px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main__wrapper .header .menu__wrapper .menu__inner p {
+        padding-left: 0;
+        letter-spacing: 10px;
+        line-height: 35px;
+    }
+    .main__wrapper .header .menu__wrapper .menu__inner ul li {
+        margin-left: 0;
+        line-height: 20px;
+        border: 1px solid #f9f6ff;
+        background: #4d7abf;
+        margin-left: 0;
+        line-height: 24px;
+        width: 100%;
+    }
+    .main__wrapper .why-choose-us__wrapper {
+        height: 1100px;
+        text-align: -webkit-center;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .content__why-choose-us {
+        left: 4px;
+        margin: 0;
+        padding: 0;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .content__why-choose-us h2 {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .content__why-choose-us p {
+        width: 294px;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .content__why-choose-us p+p {
+        padding: 20px 0 30px;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .content__why-choose-us .linear {
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper .image__first__inner {
+        float: none;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper .image__first__inner img[alt=choose_lake] {
+        width: 88%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper .image__second__inner {
+        float: none;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper .image__second__inner img[alt=choose_mountain] {
+        width: 88%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 250px;
+        position: absolute;
+    }
+    .main__wrapper .how-it-works {
+        height: 228px;
+    }
+    .main__wrapper .how-it-works .how-it-works__wrapper {
+        padding: 39px 0 0;
+    }
+    .main__wrapper .how-it-works .how-it-works__wrapper .dotted {
+        display: none;
+    }
+    .main__wrapper .how-it-works .how-it-works__wrapper .icons__wrapper .icons {
+        top: 0;
+        left: 0;
+        position: relative;
+        width: 90px;
+    }
+    .main__wrapper .how-it-works .how-it-works__wrapper .description__icons {
+        margin: 0;
+    }
+    .main__wrapper .how-it-works .how-it-works__wrapper .description__icons span {
+        font-size: 13px;
+        line-height: 26px;
+        padding-right: 10px;
+    }
+    .main__wrapper .spain .houses__wrapper .spain__inner,
+    .main__wrapper .spain .ocean__wrapper .spain__inner {
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .main__wrapper .spain .houses__wrapper .spain__inner p,
+    .main__wrapper .spain .ocean__wrapper .spain__inner p {
+        text-align: center !important;
+    }
+    .main__wrapper .Testimonial .Testimonial__wrapper {
+        padding: 0;
+    }
+    .main__wrapper .Testimonial .Testimonial__wrapper h1 {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    .main__wrapper .Testimonial .Testimonial__wrapper .content__inner img {
+        width: 100%;
+    }
+    .main__wrapper .Testimonial .Testimonial__wrapper .content__inner .content__quote {
+        width: 100%;
+    }
+    .main__wrapper .Testimonial .Testimonial__wrapper .content__inner .content__quote h3 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 767px) {
+    .main__wrapper .header .content__wrapper .search__form__wrapper form input[type=text][placeholder*=travel] {
+        font-size: 14px !important;
+        letter-spacing: 2px !important;
+    }
+    .main__wrapper .header .content__wrapper .search__form__wrapper form .input__search {
+        width: 300px !important;
+        height: 55px !important;
+    }
+    .main__wrapper .header .content__wrapper .search__form__wrapper form .searchBtn {
+        font-size: 7px;
+        height: 55px !important;
+        line-height: 53px !important;
+        font-size: 10px !important;
+        letter-spacing: 1px !important;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 767px) {
+    .main__wrapper .how-it-works .how-it-works__wrapper .icons__wrapper .icons {
+        bottom: 0 !important;
+        margin: 0 50px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main__wrapper .header .menu__wrapper {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    .main__wrapper .header .menu__wrapper .menu__inner {
+        right: 0;
+        position: unset;
+        display: block;
+        font-size: 11px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main__wrapper .header .menu__wrapper .menu__inner p {
+        display: none;
+    }
+    .main__wrapper .header .menu__wrapper .menu__inner ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    .main__wrapper .header .menu__wrapper .menu__inner ul li a {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .main__wrapper .why-choose-us__wrapper {
+        height: 520px;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        width: 700px;
+        bottom: 0;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .content__why-choose-us h2 {
+        text-align: center;
+        margin-top: -62px;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .content__why-choose-us p {
+        width: 418px;
+        text-align: justify;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .content__why-choose-us .linear {
+        margin: 0 auto;
+        position: absolute;
+        left: 60px;
+        right: 0;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper .image__first__inner {
+        float: none;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper .image__first__inner img[alt=choose_lake] {
+        width: 36%;
+        margin: 0 auto;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper .image__second__inner {
+        float: none;
+    }
+    .main__wrapper .why-choose-us__wrapper .why-choose-us__inner .image__wrapper .image__second__inner img[alt=choose_mountain] {
+        width: 36%;
+        height: auto;
+        margin: 0 auto;
+        right: 0;
+        bottom: 0;
+        float: none;
+        position: absolute;
+        top: 167px;
+        left: -287px;
+    }
+    .main__wrapper .how-it-works .how-it-works__wrapper .icons__wrapper .thumb__icon {
+        left: 614px;
+    }
+    .main__wrapper .how-it-works .how-it-works__wrapper .icons__wrapper .search__icon {
+        left: -8px;
+    }
+    .main__wrapper .how-it-works .how-it-works__wrapper .description__icons {
+        margin: 0px -30px;
+    }
+    .main__wrapper .spain .houses__wrapper .spain__inner,
+    .main__wrapper .spain .ocean__wrapper .spain__inner {
+        width: 50%;
+    }
+    .main__wrapper .Testimonial .Testimonial__wrapper {
+        padding-bottom: 70px;
+    }
+    .main__wrapper .Testimonial .Testimonial__wrapper h1 {
+        padding: 50px 0;
+    }
+    .main__wrapper .Testimonial .Testimonial__wrapper .content__inner .content__quote {
+        width: 60%;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .main__wrappper .header .menu__wrapper .menu__inner ul li a {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .main__wrappper .spain .houses__wrapper .spain__inner,
+    .main__wrappper .spain .ocean__wrapper .spain__inner {
+        width: 50%;
+    }
+    .main__wrappper .Testimonial .Testimonial__wrapper {
+        padding-bottom: 70px;
+    }
+    .main__wrappper .Testimonial .Testimonial__wrapper h1 {
+        padding: 50px 0;
+    }
+    .main__wrappper .Testimonial .Testimonial__wrapper .content__inner .content__quote {
+        width: 60%;
+        margin-top: 10px;
+    }
+}
